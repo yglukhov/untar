@@ -21,7 +21,8 @@ type
     Directory = '5',
     FIFO = '6',
     ContiguousFile = '7',
-    MetaData = 'g'
+    MetaData = 'g',
+    NextFileMetaData = 'x' # According to http://git.savannah.gnu.org/cgit/tar.git/tree/src/tar.h?h=release_1_30
 
   TarError* = object of Exception
 
